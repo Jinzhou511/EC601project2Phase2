@@ -7,4 +7,4 @@ This project can achieve:
 
 You need to put in your own KEYS AND SECRETS to activate the function.
 
-Please notice, Since this is written on colab, so you have to write on the local compiler, please delete the "df[]" statement
+Please notice, since this is written on colab, so if you need to run on the local compiler, please delete the "df[]" statement
