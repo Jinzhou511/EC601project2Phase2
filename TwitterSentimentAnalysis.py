@@ -27,8 +27,8 @@ auth = tweepy.OAuthHandler(consumerKey,consumerSecret)
 auth.set_access_token(accessToken,accessTokenSecret)
 api=tweepy.API(auth,wait_on_rate_limit=True)
 
-# get 50 tweets 
-posts = api.user_timeline(screen_name="BillGates ",count=50,lang="en",tweet_mode="extended")
+# get 100 tweets 
+posts = api.user_timeline(screen_name="BillGates ",count=100,lang="en",tweet_mode="extended")
 
 def cleanTxt(text):
   text = re.sub(r'@[A-Za-z0-9]+','',text)
