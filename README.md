@@ -6,3 +6,5 @@ This project can achieve:
 ④ Plot the plane distribution of polarity and subjectivity.
 
 You need to put in your own KEYS AND SECRETS to activate the function.
+
+Please notice, Since this is written on colab, so you have to write on the local compiler, please delete the "df[]" statement
